@@ -3,7 +3,7 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
-const projects = [
+const projects: { title: string; category: string; tools: string; image: string; link?: string }[] = [
   {
     title: "VisionCraft",
     category: "AI Image Generation Platform",
