@@ -6,11 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          AI Engineering Trainee with 1+ years of experience and a strong interest
+          in machine learning, intelligent systems, and real-world AI applications.
+          Focused on understanding how data, models, and workflows come together to
+          build practical solutions while continuously developing technical depth.
         </p>
       </div>
     </div>
