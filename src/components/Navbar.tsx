@@ -45,15 +45,6 @@ const Navbar = () => {
         <a href="/#" className="navbar-title" data-cursor="disable">
           HS
         </a>
-        <a
-          href="https://www.linkedin.com/in/harjapan-singh-484402371/"
-          className="navbar-connect"
-          data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/harjapan-singh-484402371
-        </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
