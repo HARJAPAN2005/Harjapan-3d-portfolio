@@ -45,6 +45,10 @@ const Navbar = () => {
         <a href="/#" className="navbar-title" data-cursor="disable">
           HS
         </a>
+        <div className="navbar-status" data-cursor="disable">
+          <span className="navbar-status-dot" />
+          Available for work
+        </div>
         <ul>
           <li>
             <a data-href="#about" href="#about">

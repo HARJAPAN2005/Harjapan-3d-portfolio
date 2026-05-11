@@ -40,6 +40,35 @@
   letter-spacing: 1px;
   font-weight: 500;
 }
+.navbar-status {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #ccc;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.navbar-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4ade80;
+  flex-shrink: 0;
+  animation: statusPulse 2s ease-in-out infinite;
+}
+@keyframes statusPulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.5); }
+  50%       { opacity: 0.8; box-shadow: 0 0 0 5px rgba(74, 222, 128, 0); }
+}
 .navbar-title {
   font-weight: 700;
   font-size: 14px;
@@ -64,6 +93,9 @@
 @media only screen and (min-width: 900px) {
   .navbar-connect {
     display: block;
+  }
+  .navbar-status {
+    display: flex;
   }
 }
 @media only screen and (min-width: 1200px) {
