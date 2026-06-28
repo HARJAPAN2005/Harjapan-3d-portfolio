@@ -11,6 +11,7 @@ type Project = {
   image: string;
   live?: string;
   github?: string;
+  credentials?: { username: string; password: string };
 };
 
 const projects: Project[] = [
@@ -19,7 +20,9 @@ const projects: Project[] = [
     category: "AI Voice Interviewer",
     tools: "LLM-Powered Conversational Voice, Candidate Scoring, Deployed on Render",
     image: "/images/verbatim.svg?v=2",
-    // TODO: add Verbatim Live (Render) + GitHub URLs
+    live: "https://verbatim-p7ld.onrender.com/",
+    github: "https://github.com/HARJAPAN2005/Verbatim_interviewer",
+    credentials: { username: "admin", password: "Japan800$" },
   },
   {
     title: "VisionCraft",
@@ -167,6 +170,16 @@ const Work = () => {
                                 <FaGithub /> GitHub
                               </a>
                             )}
+                          </div>
+                        )}
+                        {project.credentials && (
+                          <div className="carousel-creds">
+                            <span className="creds-label">Demo login</span>
+                            <p>
+                              Username: <code>{project.credentials.username}</code>
+                              <span className="creds-sep">·</span>
+                              Password: <code>{project.credentials.password}</code>
+                            </p>
                           </div>
                         )}
                       </div>

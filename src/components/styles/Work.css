@@ -152,6 +152,40 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+.carousel-creds {
+  margin-top: 16px;
+}
+
+.carousel-creds .creds-label {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.carousel-creds p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  font-weight: 200;
+  color: #adacac;
+}
+
+.carousel-creds code {
+  font-family: "Geist Mono", monospace;
+  font-size: 13px;
+  color: #eae5ec;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+
+.carousel-creds .creds-sep {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
 .carousel-image-wrapper {
   flex: 1;
   display: flex;
