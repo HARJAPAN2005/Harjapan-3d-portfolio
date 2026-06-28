@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Magentic Meet Bot - AI Meeting Note-Taker">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07142e"/>
+      <stop offset="1" stop-color="#01060f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 187.5 H1200 M0 375 H1200 M0 562.5 H1200 M300 0 V750 M600 0 V750 M900 0 V750"/>
+  </g>
+  <g><rect x="415" y="175" width="370" height="360" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="url(#accent)" stroke-width="3"/><circle cx="435" cy="200" r="9" fill="url(#accent)"/><rect x="455" y="215" width="300" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/><rect x="455" y="261" width="240" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/><rect x="455" y="307" width="280" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/><rect x="455" y="353" width="200" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/><rect x="455" y="399" width="260" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/><rect x="455" y="445" width="160" height="14" rx="7" fill="url(#accent)" fill-opacity="0.75"/></g>
+  <text x="80" y="120" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#5b8cff" letter-spacing="6">05</text>
+  <text x="80" y="660" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Magentic Meet Bot</text>
+  <text x="80" y="710" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff" fill-opacity="0.6">AI Meeting Note-Taker</text>
+</svg>

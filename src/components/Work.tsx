@@ -1,29 +1,69 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
-import { MdArrowBack, MdArrowForward } from "react-icons/md";
+import { MdArrowBack, MdArrowForward, MdArrowOutward } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
 
-const projects: { title: string; category: string; tools: string; image: string; link?: string }[] = [
+type Project = {
+  title: string;
+  category: string;
+  tools: string;
+  image: string;
+  live?: string;
+  github?: string;
+};
+
+const projects: Project[] = [
   {
     title: "Verbatim",
     category: "AI Voice Interviewer",
     tools: "LLM-Powered Conversational Voice, Candidate Scoring, Deployed on Render",
-    image: "/images/verbatim.svg",
-    // TODO: add Verbatim live/repo URL (verify GitHub username too)
-  },
-  {
-    title: "Pedestrian Detection",
-    category: "Detection & Tracking System",
-    tools: "YOLO, DeepSORT, Kalman Filtering, OpenCV — 90%+ consistency, 20–25 FPS",
-    image: "/images/pedestrian.svg",
-    // TODO: add Pedestrian Detection repo URL (verify GitHub username too)
+    image: "/images/verbatim.svg?v=2",
+    // TODO: add Verbatim Live (Render) + GitHub URLs
   },
   {
     title: "VisionCraft",
     category: "AI Image Generation Platform",
     tools: "Generative AI, Prompt-Driven Workflows, Controlled Composition",
-    image: "/images/visioncraft.svg",
-    // TODO: add VisionCraft repo URL (verify GitHub username too)
+    image: "/images/visioncraft.svg?v=2",
+    github: "https://github.com/HARJAPAN2005/visioncraft-ai",
+  },
+  {
+    title: "Voice Sales Agent",
+    category: "Real-time AI Outbound Calling",
+    tools: "Real-time Speech, LLM-Driven Dialogue, Outbound Calling Workflows",
+    image: "/images/exl-voice.svg?v=2",
+    live: "https://exl-poc-voice-sales-v2.vercel.app",
+    github: "https://github.com/HARJAPAN2005/EXL_POC_VOICE_SALES_V2",
+  },
+  {
+    title: "Candidate Ranker",
+    category: "Hybrid Retrieval Ranking System",
+    tools: "Hybrid BM25 + Dense Retrieval, Embeddings, Python — 100K+ profiles",
+    image: "/images/candidate-ranker.svg?v=2",
+    github: "https://github.com/HARJAPAN2005/india-runs-candidate-ranker",
+  },
+  {
+    title: "Magentic Meet Bot",
+    category: "AI Meeting Note-Taker",
+    tools: "Auto-Join Calls, Structured Transcripts & Summaries, Python",
+    image: "/images/meet-bot.svg?v=2",
+    github: "https://github.com/HARJAPAN2005/Magentic-meet-bot",
+  },
+  {
+    title: "Digital Signage Editor",
+    category: "Multi-Screen Content CMS",
+    tools: "Content Scheduling, Multi-Tenant CRM, React + REST APIs",
+    image: "/images/signage.svg?v=2",
+    live: "https://digital-signage-editor-image.vercel.app",
+    github: "https://github.com/HARJAPAN2005/digital_signage_editor",
+  },
+  {
+    title: "Pedestrian Detection",
+    category: "Detection & Tracking System",
+    tools: "YOLO, DeepSORT, Kalman Filtering, OpenCV — 90%+ consistency, 20–25 FPS",
+    image: "/images/pedestrian.svg?v=2",
+    github: "https://github.com/HARJAPAN2005/SE-Pedestrian-and-Vehicle-Detection-RT",
   },
 ];
 
@@ -103,13 +143,39 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {(project.live || project.github) && (
+                          <div className="carousel-links">
+                            {project.live && (
+                              <a
+                                href={project.live}
+                                target="_blank"
+                                rel="noreferrer"
+                                data-cursor="disable"
+                                className="carousel-link carousel-link-live"
+                              >
+                                Live <MdArrowOutward />
+                              </a>
+                            )}
+                            {project.github && (
+                              <a
+                                href={project.github}
+                                target="_blank"
+                                rel="noreferrer"
+                                data-cursor="disable"
+                                className="carousel-link carousel-link-github"
+                              >
+                                <FaGithub /> GitHub
+                              </a>
+                            )}
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
                       <WorkImage
                         image={project.image}
                         alt={project.title}
-                        link={project.link}
+                        link={project.live || project.github}
                       />
                     </div>
                   </div>

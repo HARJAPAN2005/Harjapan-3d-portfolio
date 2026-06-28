@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Digital Signage Editor - Multi-Screen Content CMS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d0a3a"/>
+      <stop offset="1" stop-color="#0a0118"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 187.5 H1200 M0 375 H1200 M0 562.5 H1200 M300 0 V750 M600 0 V750 M900 0 V750"/>
+  </g>
+  <g><rect x="380" y="190" width="440" height="270" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="url(#accent)" stroke-width="4"/><rect x="415" y="225" width="180" height="120" rx="8" fill="url(#accent)" fill-opacity="0.6"/><rect x="615" y="225" width="170" height="55" rx="8" fill="url(#accent)" fill-opacity="0.35"/><rect x="615" y="290" width="170" height="55" rx="8" fill="url(#accent)" fill-opacity="0.35"/><rect x="415" y="365" width="370" height="60" rx="8" fill="url(#accent)" fill-opacity="0.2"/><rect x="575" y="460" width="50" height="40" fill="url(#accent)" fill-opacity="0.5"/><rect x="520" y="500" width="160" height="16" rx="8" fill="url(#accent)" fill-opacity="0.7"/></g>
+  <text x="80" y="120" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#a78bfa" letter-spacing="6">06</text>
+  <text x="80" y="660" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Digital Signage Editor</text>
+  <text x="80" y="710" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff" fill-opacity="0.6">Multi-Screen Content CMS</text>
+</svg>
