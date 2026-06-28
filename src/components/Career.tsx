@@ -21,9 +21,14 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Working on ML, intelligent systems, and real-world AI applications.
-              Building technical depth around how data, models, and workflows
-              combine into shipped solutions.
+              Built R&amp;D prototypes for GraphRAG retrieval with FalkorDB, modeling
+              entity relationships to raise context relevance for domain-scoped
+              question answering. Engineered an AI meeting note-taker that auto-joins
+              calls and produces structured transcripts and summaries, deployed as a
+              live web service. Developed an AI voice-sales agent POC integrating
+              real-time speech with LLM-driven dialogue for outbound calling, plus
+              supporting Node.js backends — a multi-tenant file-manager module and a
+              digital-signage CRM.
             </p>
           </div>
           <div className="career-info-box">
@@ -35,11 +40,14 @@ const Career = () => {
               <h3>Jan–Apr 2026</h3>
             </div>
             <p>
-              Shipped AI-powered features with LangChain &amp; LangGraph—agent-based,
-              multi-tool LLM workflows. Built backend services with Node.js / FastAPI,
-              Prisma, and PostgreSQL: auth, data models, usage tracking. Integrated
-              AI into real apps: chat tools, image generation, recipe generation,
-              meeting-notes automation. Built React dashboards and admin panels.
+              Built a hybrid RAG pipeline over Elasticsearch combining keyword and
+              semantic retrieval to improve answer accuracy across large document
+              sets. Developed and deployed an e-commerce AI chatbot (Mira) with a
+              production React chat interface, integrating LLM APIs and structured
+              prompt engineering. Shipped 45+ SEO/AI marketing tools, a blog
+              platform, and marketing landing pages (Pipeline AI, People AI), plus
+              supporting services — a Shopify pricing module, HRMS reminder cron
+              jobs, and a tournament-prediction API across Node.js and FastAPI.
             </p>
           </div>
         </div>

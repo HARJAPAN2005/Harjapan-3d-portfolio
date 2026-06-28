@@ -87,22 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Agentic Workflows & LLM Systems</h4>
+              <h3>AI & RETRIEVAL</h3>
+              <h4>RAG, LLM Chatbots & Voice Agents</h4>
               <p>
-                I build agentic LLM workflows with LangChain and LangGraph—
-                multi-tool pipelines that do real work: AI chat tools, image
-                and recipe generation, meeting-note automation. Hands-on with
-                prompt engineering and integrating models into production apps.
+                I build AI-native products: hybrid RAG over Elasticsearch and
+                graph-based retrieval with FalkorDB, LLM-powered chatbots, and
+                conversational voice agents. Hands-on with embeddings, semantic
+                search, prompt engineering, and wiring models into production apps.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">LangChain &amp; LangGraph</div>
-                <div className="what-tags">Agent workflows</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">Hybrid Search (Elasticsearch)</div>
+                <div className="what-tags">GraphRAG (FalkorDB)</div>
+                <div className="what-tags">Embeddings &amp; semantic search</div>
+                <div className="what-tags">Conversational AI</div>
+                <div className="what-tags">AI voice agents</div>
                 <div className="what-tags">Prompt engineering</div>
-                <div className="what-tags">AI features</div>
-                <div className="what-tags">Integrations</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -130,19 +131,19 @@ const WhatIDo = () => {
               <h4>Full-Stack AI Products</h4>
               <p>
                 I wire the backend that makes AI usable: FastAPI and Node.js
-                services, Prisma + PostgreSQL data models, auth, usage tracking.
-                On the frontend, React dashboards and admin panels that connect
-                to those APIs—shipped to production, not just demos.
+                services and REST APIs powering chatbots, automation, and CRM
+                modules. On the frontend, production React chat interfaces,
+                dashboards, and landing pages — shipped live, not just demos.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
+                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">FastAPI</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">Prisma</div>
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">REST APIs</div>
+                <div className="what-tags">SQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>

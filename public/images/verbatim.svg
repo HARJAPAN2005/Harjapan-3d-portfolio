@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Verbatim — AI Voice Interviewer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160632"/>
+      <stop offset="1" stop-color="#070016"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a779ff"/>
+      <stop offset="1" stop-color="#5b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 187.5 H1200 M0 375 H1200 M0 562.5 H1200 M300 0 V750 M600 0 V750 M900 0 V750"/>
+  </g>
+  <!-- waveform -->
+  <g stroke="url(#accent)" stroke-width="10" stroke-linecap="round">
+    <line x1="360" y1="330" x2="360" y2="420"/>
+    <line x1="410" y1="290" x2="410" y2="460"/>
+    <line x1="460" y1="250" x2="460" y2="500"/>
+    <line x1="510" y1="200" x2="510" y2="550"/>
+    <line x1="560" y1="300" x2="560" y2="450"/>
+    <line x1="610" y1="160" x2="610" y2="590"/>
+    <line x1="660" y1="240" x2="660" y2="510"/>
+    <line x1="710" y1="290" x2="710" y2="460"/>
+    <line x1="760" y1="220" x2="760" y2="530"/>
+    <line x1="810" y1="320" x2="810" y2="430"/>
+  </g>
+  <text x="80" y="120" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#a779ff" letter-spacing="6">01</text>
+  <text x="80" y="660" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Verbatim</text>
+  <text x="80" y="710" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff" fill-opacity="0.6">AI Voice Interviewer</text>
+</svg>

@@ -6,10 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          AI Engineering Trainee with 1+ years of experience and a strong interest
-          in machine learning, intelligent systems, and real-world AI applications.
-          Focused on understanding how data, models, and workflows come together to
-          build practical solutions while continuously developing technical depth.
+          Computer Science undergraduate (Data Science) and full-stack developer
+          specializing in AI-native products — RAG pipelines, LLM-powered chatbots,
+          and voice agents. Across a six-month engineering internship, I designed
+          and shipped 10+ AI and full-stack systems spanning hybrid and graph-based
+          retrieval (Elasticsearch, FalkorDB), conversational AI, and voice
+          automation, alongside production React, Node.js, and FastAPI applications.
         </p>
       </div>
     </div>

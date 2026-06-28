@@ -5,25 +5,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects: { title: string; category: string; tools: string; image: string; link?: string }[] = [
   {
-    title: "VisionCraft",
-    category: "AI Image Generation Platform",
-    tools: "Generative AI, Prompt Engineering, Pipeline Optimization",
-    image: "/images/placeholder.webp",
-    // TODO: add VisionCraft repo URL (verify GitHub username too)
-  },
-  {
-    title: "AI Recipe Generator",
-    category: "Full-Stack AI Web App",
-    tools: "LLM Integration, FastAPI, React, Prompt Engineering",
-    image: "/images/placeholder.webp",
-    // TODO: add AI Recipe Generator repo URL (verify GitHub username too)
+    title: "Verbatim",
+    category: "AI Voice Interviewer",
+    tools: "LLM-Powered Conversational Voice, Candidate Scoring, Deployed on Render",
+    image: "/images/verbatim.svg",
+    // TODO: add Verbatim live/repo URL (verify GitHub username too)
   },
   {
     title: "Pedestrian Detection",
-    category: "Computer Vision System",
-    tools: "YOLO, DeepSORT, Kalman Filtering, Python",
-    image: "/images/placeholder.webp",
+    category: "Detection & Tracking System",
+    tools: "YOLO, DeepSORT, Kalman Filtering, OpenCV — 90%+ consistency, 20–25 FPS",
+    image: "/images/pedestrian.svg",
     // TODO: add Pedestrian Detection repo URL (verify GitHub username too)
+  },
+  {
+    title: "VisionCraft",
+    category: "AI Image Generation Platform",
+    tools: "Generative AI, Prompt-Driven Workflows, Controlled Composition",
+    image: "/images/visioncraft.svg",
+    // TODO: add VisionCraft repo URL (verify GitHub username too)
   },
 ];
 
